@@ -1,3 +1,463 @@
-/* Your Styles Here */
 body{
+    background-color: rgb(255, 255, 255);
+    background-image: url("panamMap.jpg");
 }
+
+#passportParent1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.panamMap{
+    z-index: -3;}
+    @font-face {
+        font-family: joeFont;
+        src: url(RJOETRIAL.otf);
+    }
+    .passion{
+        font-family: 'Times';
+        color: rgba(0, 0, 0, 0.928);
+        font-style: normal;
+        font-size: 12px;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-right: 280px;
+        padding-top: 170px;
+        width: 250px;
+        z-index: 50;} 
+    .passionTitle{
+        font-family: 'Times New Roman';
+        color: hsla(285, 100%, 1%, 0.84);
+        font-style: normal;
+        font-weight: 550;
+        font-size: 14px;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-right: 282px;
+        padding-top: 25px;
+        z-index: 49;}
+    .contact{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-right: 235px;
+        padding-bottom: 49px;
+        z-index: 50;}    
+   .contactTitle{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-right: 282px;
+       padding-bottom: 42px;
+       z-index: 49;}
+    .hobbies3{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 250px;
+        padding-top: 305px;
+        z-index: 50;}    
+   .hobbies3Title{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-top: 307px;
+       z-index: 49;}
+    .hobbies2{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 250px;
+        padding-top: 255px;
+        z-index: 50;}    
+   .hobbies2Title{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-top: 257px;
+       z-index: 49;}
+    .hobbies{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 290px;
+        padding-top: 205px;
+        z-index: 50;}    
+   .hobbiesTitle{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-top: 207px;
+       z-index: 49;}
+    .orgs3Title{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgba(0, 0, 0, 0.928);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 255px;
+        padding-top: 157px;
+        z-index: 49;}
+    .orgs2{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 260px;
+        padding-top: 100px;
+        z-index: 50;}    
+   .orgs2Title{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-top: 107px;
+       z-index: 49;}
+    .orgs{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 290px;
+        padding-top: 50px;
+        z-index: 50;}    
+   .orgsTitle{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-top: 57px;
+       z-index: 49;}
+    .height{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 290px;
+        padding-top: 0px;
+        z-index: 50;}    
+   .heightTitle{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-top: 7px;
+       z-index: 49;}
+    .sex{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 220px;
+        padding-bottom: 47px;
+        z-index: 50;}    
+   .sexTitle{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-bottom: 45px;
+       z-index: 49;}
+    .country{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 220px;
+        padding-bottom: 97px;
+        z-index: 50;}    
+   .countryTitle{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-bottom: 95px;
+       z-index: 49;}
+    .residence{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 290px;
+        padding-bottom: 147px;
+        z-index: 50;}    
+   .residenceTitle{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-bottom: 145px;
+       z-index: 49;}
+    .year{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 290px;
+        padding-bottom: 197px;
+        z-index: 50;}    
+   .yearTitle{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-bottom: 195px;
+       z-index: 49;}
+    .major{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 260px;
+        padding-bottom: 247px;
+        z-index: 50;}    
+   .majorTitle{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-bottom: 245px;
+       z-index: 49;}
+    .bday{
+        font-family: joeFont;
+        color: rgba(31, 30, 30, 0.531);
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
+        position: absolute;
+        float: left;
+        padding-left: 310px;
+        padding-bottom: 302px;
+        z-index: 50;}    
+   .bdayTitle{
+       font-family: 'Times New Roman', Times, serif;
+       color: rgba(0, 0, 0, 0.928);
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       text-align: center;
+       position: absolute;
+       float: left;
+       padding-left: 255px;
+       padding-bottom: 295px;
+       z-index: 49;}
+  .name{
+     font-family: joeFont;
+     color: rgba(31, 30, 30, 0.531);
+     font-style: italic;
+     font-weight: lighter;
+     text-align: center;
+     position: absolute;
+     float: left;
+     padding-left: 225px;
+     padding-bottom: 347px;
+     z-index: 50;}    
+.nameTitle{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.928);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    float: left;
+    padding-left: 255px;
+    padding-bottom: 345px;
+    z-index: 49;}
+.passportBackgroundEdge{
+    background: rgb(92, 32, 0); 
+    width: 580px; height: 500px; 
+    border-radius: 25px;
+    z-index: 9px;}
+.passportBackgroundMain{
+    position: absolute;
+    background: rgb(254, 246, 229); 
+    width: 560px; height: 480px; 
+    border-radius: 25px;
+    z-index: 10px}
+.passportStapleLine{
+    border-left: 6px solid rgb(92, 32, 0);
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    z-index: 20px;}
+.leftPassportHorzLine{
+    border-left: 6px solid rgb(0, 0, 0, 0.928);
+    height: 1.25px;
+    border-width: 200px;
+    padding-right: 280px;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-top: auto;
+    z-index: 70;}
+.leftPassportHorzLine2{
+    border-left: 6px solid rgb(0, 0, 0, 0.928);
+    height: 1.25px;
+    border-width: 200px;
+    padding-right: 280px;
+    margin-bottom: -310px;
+    position: absolute;
+    margin-top: auto;
+    z-index: 70;}
+.profilePic{
+    text-align: center;
+    position: absolute;
+	width: 133px;
+	height: 170px;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    float: left;
+    padding-right: 275px;
+    padding-bottom: 255px;}
+ .stamp1{
+    text-align: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 455px;
+    padding-top: 375px;
+    z-index: 55;}
+.stamp2{
+    text-align: center;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    float: left;
+    padding-left: 460px;
+    padding-bottom: 375px;
+    z-index: 55;}
+.stamp3{
+    text-align: center;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    rotate: 5deg;
+    float: left;
+    padding-right: 470px;
+    padding-bottom: 325px;
+    z-index: 55;}
+.stamp4{
+    text-align: center;
+    position: absolute;
+    width: 125px;
+    float: left;
+    padding-right: 235px;
+    padding-top: 385px;
+    z-index: 55;}
+    
+    
+
+
+
+
